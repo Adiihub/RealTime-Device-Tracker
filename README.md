@@ -19,7 +19,7 @@ A real-time device tracking web app built using **Node.js**, **Express**, **Sock
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/realtime-tracking-app.git
+   git clone ..
    cd realtime-tracking-app
    
 Install dependencies
