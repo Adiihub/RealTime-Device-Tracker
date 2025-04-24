@@ -4,10 +4,10 @@ A real-time device tracking web app built using **Node.js**, **Express**, **Sock
 
 ## 🔥 Features
 
-- 📍 Tracks user location in real-time
-- 🗺️ Displays location on an interactive Leaflet map
-- 🔄 Updates user markers live using WebSockets
-- ❌ Removes marker when a user disconnects
+- Tracks user location in real-time
+- Displays location on an interactive Leaflet map
+- Updates user markers live using WebSockets
+- Removes marker when a user disconnects
 
 ## 🛠️ Tech Stack
 
@@ -15,12 +15,13 @@ A real-time device tracking web app built using **Node.js**, **Express**, **Sock
 - **Frontend:** HTML, CSS, Leaflet.js  
 - **Real-time:** WebSocket (via Socket.IO)
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository  
    ```bash
    git clone https://github.com/your-username/realtime-tracking-app.git
    cd realtime-tracking-app
+   
 Install dependencies
 npm install
 
