@@ -1,6 +1,10 @@
-check if the browser support Geolocation.
+check if the browser support Geolocation. (most devices me yh allow krta h)
 
-Set Options for high accuracy, a 5-second timeout, & no caching. Use watchPosition to track the user's location continiously. Emit the latitude & longitude via socket with "send-location". log any errors to the console.
+Set Options for high accuracy, a 5-second timeout, & no caching. 
+
+Use watchPosition to track the user's location continiously. 
+
+Emit the latitude & longitude via socket with "send-location". log any errors to the console.
 
 Initialize the map centered at coordinates (0, 0) with a zoom level of 15 using LeafLet. Add OpenStreepMap tiles to the Map 
 
@@ -8,4 +12,4 @@ Create an empty object markers
 
 When receiving locations data via the socket, extract id, latitude & longitude, center the map on the new coordinates.
 
-If the maker for the Id 
+If the maker for the Id exits, update its position, otherwise create a new marker at the given coordinates & add it to the map. When a user disconnects, remove their marker from the map & delete it from markers.
