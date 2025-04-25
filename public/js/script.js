@@ -37,7 +37,7 @@ socket.on("Receive-Location", (data) => {
   } else {
     markers[id] = L.marker([latitude, longitude])
       .addTo(map)
-      .bindPopup("A pretty CSS popup.<br> Easily customizable.");
+      // .bindPopup("A pretty CSS popup.<br> Easily customizable.");
   }
 });
 
