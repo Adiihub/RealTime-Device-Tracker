@@ -1,6 +1,7 @@
 const socket = io();
 // console.log("Socket connected on client");
 
+// navigator window obj me pre-built hota h
 if (navigator.geolocation) {
   //position watch krta h,Watchposition 3rdThing uski setting vi pas kr stkeHai
   navigator.geolocation.watchPosition(
